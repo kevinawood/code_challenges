@@ -7,6 +7,7 @@
 
 
 alien_0 = {"colour": 'green', "points": 5, "x_position": "0", "y_position": "25", "speed": 'medium'}
+print(alien_0)
 print("Original x-position: {}".format(alien_0['x_position']))
 
 # Move alien to the right
@@ -21,6 +22,10 @@ else:
 # The new position is the old position plus the increment
 alien_0["x_position"] = int(alien_0["x_position"] )+ int(x_increment)
 print('New x-position is: {}'.format(alien_0["x_position"]))
+
+# del alien_0["points"]
+
+print(alien_0)
 #
 # print(alien_0['colour'])
 #
