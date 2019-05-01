@@ -21,6 +21,13 @@ def results():
             tails += 1
     print("Heads: {}, Tails: {}".format(heads, tails))
     print(outcomes)
+    time.sleep(1)
+    decision = input("Would you like to flip again?:\n")
+    if decision.lower() in ['y', 'yes']:
+        main()
+    else:
+        print("Thanks for playing.")
+        return
 
 
 def main():
