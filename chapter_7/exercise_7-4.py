@@ -1,6 +1,5 @@
 # Pizza Toppings
 
-
 while True:
     topping = input("What pizza topping would you like to add? (Type 'quit' to stop): \n")
 
