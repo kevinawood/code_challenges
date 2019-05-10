@@ -1,6 +1,6 @@
 import pygame
 from ship import Ship
-from game_functions as gf
+import game_functions as gf
 from settings import Settings
 
 def run_game():
@@ -18,7 +18,7 @@ def run_game():
 
     # Start the main loop for game
     while True:
-        gf.check_events()
+        gf.check_events(ship)
         gf.update_screen(ai_settings, screen, ship)
 
 run_game()
