@@ -14,7 +14,7 @@ def run_game():
     # bg_colour = (230, 230, 230)
 
     # Make a Ship
-    ship = Ship(screen)
+    ship = Ship(ai_settings, screen)
 
     # Start the main loop for game
     while True:
